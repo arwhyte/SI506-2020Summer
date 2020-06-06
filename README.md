@@ -120,7 +120,7 @@ If you start the waiver exam assignment and conclude that it is beyond your curr
 problem, stop working on it and resume your other summer activities. SI 506 is probably the right
 course for you and we look forward to helping you enhance your progamming skills in the Fall.
 
-## 2.1 Setup
+### 2.1 Setup
 
 * Install [Python 3.x](https://www.python.org/downloads/)
 * Install the [requests](https://requests.readthedocs.io/en/master/) package using `pip`.
@@ -222,7 +222,7 @@ created.
 You must score 850 out of a maximum 1000 points to pass the waiver exam assignment. You score
 points by uploading your work to Gradescope and passing a series of autograder tests.
 
-## 4.3 Autograder
+### 4.3 Autograder
 
 The autograder will score each submission that you upload. You will earn points for every test that
 you pass. Gradescope will replace your prior score (if any) with the current score.
