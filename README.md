@@ -1,6 +1,6 @@
 # SI 506 WAIVER ASSIGNMENT
 
-## Preliminaries
+## 1.0 Preliminaries
 
 [SI 506 Programming I](https://www.si.umich.edu/programs/courses/506) is designed for graduate
 students with little or no programming experience. SI 506 together with SI 507 (Intermediate
@@ -22,21 +22,21 @@ other more advanced computing courses.
 course waiver does not reduce the credits required for a student’s degree, but enables students to
 take a more advanced course or choose another course of interest.__
 
-### Sign up
+### 1.1 Sign up
 
 To be considered for the SI 506 waiver, you must first complete the Google sign up
 [form](https://docs.google.com/forms/d/1nBJUyvv1wZnNG8NllQTwp0L8bDEtgfh9ihQZp064Gnc/edit) in order
 to be granted access to the assignment. If you do not complete this form, you will not be considered
 for the waiver.
 
-### Deadline
+### 1.2 Deadline
 
 :warning: The SI 506 Programming I waiver assignment submission is due no later than Monday,
 June 22, 2020, 9:00 am EDT. Submissions must be made to
 [Gradescope](https://www.gradescope.com/courses/137284) and pre-approval as described above is
 required before access to the site is provided.
 
-### Files location
+### 1.3 Files location
 
 The waiver exam assignment template file and a copy of this guide can be found under
 [Files](https://umich.instructure.com/courses/400847/files/folder/SI%20506) in the Canvas
@@ -51,7 +51,7 @@ the template file before commencing the assighment.
 :bulb: The template file, README, and several install guides can also be found in the
 [SI506-2020Summer](https://github.com/umsi-arwhyte/SI506-2020Summer) Github public repository.
 
-### Self-study preparation
+### 1.4 Self-study preparation
 
 You are free to use any source-code text editor to complete the assignment (we recommend
 [VS Code](https://code.visualstudio.com/)). We assume that you are capable of installing both
@@ -84,7 +84,7 @@ You should also familiarize yourself with the
 And, of course, you can consult the Python Software Foundation's offical
 [documentation](https://docs.python.org/3/).
 
-### Questions
+### 1.5 Questions
 
 For clarifying questions about the instructions or concepts, head to
 [Piazza](https://piazza.com/class/kb2xg1pgdr356), a Q/A platform that you can use to pose questions
@@ -100,7 +100,7 @@ That said, we limit our replies to offering hints and clarifications only, no an
 :bulb: if you encounter an issue with the assignment or the autograder deployed to Gradescope
 let us know by posting a message on Piazza.
 
-## The Challenge
+## 2.0 The Challenge
 
 The waiver exam programming assignment assesses your ability to work with lists, dictionaries, and
 nested data structures, implement functions and classes, retrieve data from the
@@ -120,13 +120,13 @@ If you start the waiver exam assignment and conclude that it is beyond your curr
 problem, stop working on it and resume your other summer activities. SI 506 is probably the right
 course for you and we look forward to helping you enhance your progamming skills in the Fall.
 
-## Setup
+## 2.1 Setup
 
 * Install [Python 3.x](https://www.python.org/downloads/)
 * Install the [requests](https://requests.readthedocs.io/en/master/) package using `pip`.
 * Create a Flickr account and obtain a [non-commercial Flickr API key](https://www.flickr.com/services/apps/create/apply)
 
-### Obtaining a Flickr API key
+### 2.2 Obtaining a Flickr API key
 
 If you do not already have a Flickr account create one per the sign up
 [directions](https://help.flickr.com/en_us/sign-up-for-a-flickr-account-B1Mc3mskX). Once you have
@@ -143,9 +143,9 @@ your setup so include the key value in your submission. Once we have scored your
 recommend that you delete the "app" (which deletes the associated API key) and apply for a new
 non-commercial flickr API key.
 
-## Writing Code
+## 3.0 Writing Code
 
-### Template file
+### 3.1 Template file
 
 The Python template file `si506_20f_waiver.py` is where you will write your code. Read the
 instructions embedded in the comments carefully and implement the required code as directed.
@@ -155,13 +155,13 @@ is designed to import your file as a module in order to reference the classes, f
 variables by expected names. If you change expected class, function, and variables names you will
 fail tests.
 
-### Template file text conventions
+### 3.2 Template file text conventions
 
 Code comment references to classes, functions, variables, arguments, and
 file names are bounded by '<' name '>' as an aid to identification. Drop the '<' and '>' when
 using the names in your code.
 
-### Placeholders
+### 3.3 Placeholders
 
 You will insert your code into the template file `si506_20f_waiver.py` whenever you encounter lines
 that employ the following conventions:
@@ -174,13 +174,13 @@ that employ the following conventions:
 
 :exclamation: You MUST replace these placeholder values and statements with your code.
 
-### Placeholder example: missing method parameters
+#### 3.3.1 Placeholder example: missing method parameters
 
 ```python
 def __init__(self): # TODO fix
 ```
 
-### Placeholder example: function implementation
+#### 3.3.2 Placeholder example: function implementation
 
 ```python
 def read_json(filepath):
@@ -197,15 +197,15 @@ def read_json(filepath):
     pass # TODO replace
 ```
 
-### Placeholder example: variable assignment
+#### 3.3.3 Placeholder example: variable assignment
 
 ```python
 photo_thames_lit = None # TODO replace
 ```
 
-## Scoring
+## 4.0 Scoring
 
-### Gradescope
+### 4.1 Gradescope
 
 We employ the [Gradescope](https://www.gradescope.com/) platform and custom autograder code written
 in Python to score waiver exam assignment submissions. The Gradescope SI 506 waiver exam assignment
@@ -217,12 +217,12 @@ We will create a Gradescope account for you using your first name, last name, an
 address. You should receive an email notification from Gradescope after your account has been
 created.
 
-### Earning points
+### 4.2 Earning points
 
 You must score 850 out of a maximum 1000 points to pass the waiver exam assignment. You score
 points by uploading your work to Gradescope and passing a series of autograder tests.
 
-## Autograder
+## 4.3 Autograder
 
 The autograder will score each submission that you upload. You will earn points for every test that
 you pass. Gradescope will replace your prior score (if any) with the current score.
@@ -231,7 +231,7 @@ you pass. Gradescope will replace your prior score (if any) with the current sco
 score replaces the prior score even if the new score is lower. Keep that in mind as you organize
 your work and testing.
 
-### Submissions
+### 4.4 Submissions
 
 There is no limit to the number of times that you may submit your updated `si506_20f_waiver.py` file
 to Gradescope prior to the close of the exam period. However, no late submissions will be accepted.
@@ -239,19 +239,19 @@ to Gradescope prior to the close of the exam period. However, no late submission
 :exclamation: The only file that you are required to submit to Gradescope is your copy of
 `si506_20f_waiver.py`. Please submit no other files.
 
-### Pass/Fail notification
+### 4.5 Pass/Fail notification
 
 After the close of the waiver exam, the UMSI Registrar Team will notify students officially about
 their waiver outcome status.
 
-## Testing your code
+## 4.6 Testing your code
 
 Make frequent use of the built-in `print()` function to check values (you can comment out these
 lines before submitting your work). You should also use the Gradescope autograder to test your code.
 Recall, that there is no limit to the number of times that you can submit your work to Gradescope
 for evaluation prior to the close of the exam period.
 
-### Autograder test failures
+### 4.7 Autograder test failures
 
 You are likely to fail tests, sometimes repeatedly, after submitting your work to Gradescoope for
 scoring. Don't let test failures discourage you. As you finish working on the various sections of
@@ -265,33 +265,33 @@ The Gradescope Autograder Results page will list both passing and failing tests 
 Failed tests will be accompanied by a short error description, examples of which are illustrated
 below:
 
-#### File read error
+#### 4.7.1 File read error
 
 ![read_json() file reading error](./assets/si506_waiver_read_json_error.png)
 
-#### Counting error
+#### 4.7.2 Counting error
 
 ![counting error](./assets/si506_waiver_count_error.png)
 
-#### List element mismatches
+#### 4.7.3 List element mismatches
 
 Interpret as student list (left side) does not equal (!=) the test list (right side). In this
 example neither list length nor the individual list elements pass the equality test.
 
 ![list element mismatch error](./assets/si506_waiver_list_element_error.png)
 
-#### Missing method parameter
+#### 4.7.4 Missing method parameter
 
 ![missing __init__() method error](./assets/si506_waiver_parameter_error.png)
 
-#### Dictionary value mismatch
+#### 4.7.5 Dictionary value mismatch
 
 Interpret as student dictionary (left side) does not equal (!=) the test dictionary (right side). In
 this example the `tags` value `['Go Blue!]` != `[hockey]`.
 
 ![dictionaray value mismatch error](./assets/si506_waiver_dict_value_error.png)
 
-#### write_json() / json.dump() serialization error
+#### 4.7.6 write_json() / json.dump() serialization error
 
 This TypeError occurs whenever you attempt to encode a custom type by passing it to
 `json.dump()` for encoding as JSON prior to writing the serialized object to a file. In this
