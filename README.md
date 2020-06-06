@@ -25,7 +25,7 @@ take a more advanced course or choose another course of interest.__
 ### 1.1 Sign up
 
 To be considered for the SI 506 waiver, you must first complete the Google sign up
-[form](https://docs.google.com/forms/d/1nBJUyvv1wZnNG8NllQTwp0L8bDEtgfh9ihQZp064Gnc/edit) in order
+[form](https://docs.google.com/forms/d/1nBJUyvv1wZnNG8NllQTwp0L8bDEtgfh9ihQZp064Gnc/prefill) in order
 to be granted access to the assignment. If you do not complete this form, you will not be considered
 for the waiver.
 
@@ -36,17 +36,17 @@ June 22, 2020, 9:00 am EDT. Submissions must be made to
 [Gradescope](https://www.gradescope.com/courses/137284) and pre-approval as described above is
 required before access to the site is provided.
 
-### 1.3 Files location
+### 1.3 File locations
 
-The waiver exam assignment template file and a copy of this guide can be found under
+The waiver exam assignment template file and a copy of this README can be found under
 [Files](https://umich.instructure.com/courses/400847/files/folder/SI%20506) in the Canvas
 [UMSI Course Waivers](https://umich.instructure.com/courses/400847) site.
 
 * Template file: `si506_20f_waiver.py`
-* Guide: `si506_20f_waiver_guide.pdf`
+* Guide: `si506_20f_waiver_README.pdf`
 
 Download the files. Review carefully both the guide (a copy of this README) and the instructions in
-the template file before commencing the assighment.
+the template file before commencing the assignment.
 
 :bulb: The template file, README, and several install guides can also be found in the
 [SI506-2020Summer](https://github.com/umsi-arwhyte/SI506-2020Summer) Github public repository.
