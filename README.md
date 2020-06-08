@@ -100,6 +100,25 @@ That said, we limit our replies to offering hints and clarifications only, no an
 :bulb: if you encounter an issue with the assignment or the autograder deployed to Gradescope
 let us know by posting a message on Piazza.
 
+### 1.6 Plagiarism
+
+Although the waiver exam assignment is "open network, open book" the assignment you submit MUST
+constitute your own work. Collaborating with any person on this assignment is NOT permitted. Read
+carefully the School of Information's injunction against cheating and plagarism. It applies to this
+waiver exam assignment in the same manner and with the same consequences as course assignments that
+you will be asked to complete in future as a student.
+
+> All submitted work must be your own original work unless otherwise specified in a specific
+> assignment. Asking someone to contribute to or complete your work or copying work of another
+> student is a form of academic misconduct (cheating). The use of ideas or expressions from others
+> without attribution is another form of academic misconduct (plagiarism). Any violation of the
+> School’s policy on Academic and Professional Integrity (found in the student handbooks) will
+> result in serious penalties. These range from failing an assignment, to failing a course, to
+> being expelled from the program. Violations of academic and professional integrity will be
+> reported to the UMSI academic integrity officer. Consequences impacting assignment or course grades
+> are determined by the faculty instructor; additional sanctions may be imposed by the Senior
+> Associate Dean for Academic Affairs.
+
 ## 2.0 The Challenge
 
 The waiver exam programming assignment assesses your ability to work with lists, dictionaries, and
@@ -219,19 +238,16 @@ created.
 
 ### 4.2 Earning points
 
-You must score 850 out of a maximum 1000 points to pass the waiver exam assignment. You score
-points by uploading your work to Gradescope and passing a series of autograder tests.
-
-### 4.3 Autograder
-
-The autograder will score each submission that you upload. You will earn points for every test that
-you pass. Gradescope will replace your prior score (if any) with the current score.
+You score points by uploading your work to Gradescope and passing a series of autograder tests.
+The autograder comprises twenty-five tests, each with a different point rating. The autograder will
+score each submission that you upload. You will earn points for every test that you pass. Gradescope
+will replace your prior score (if any) with the current score.
 
 :warning: Gradescope operates on a *last score wins* strategy. In other words, the latest submission
 score replaces the prior score even if the new score is lower. Keep that in mind as you organize
 your work and testing.
 
-### 4.4 Submissions
+### 4.3 Number of submissions
 
 There is no limit to the number of times that you may submit your updated `si506_20f_waiver.py` file
 to Gradescope prior to the close of the exam period. However, no late submissions will be accepted.
@@ -239,19 +255,20 @@ to Gradescope prior to the close of the exam period. However, no late submission
 :exclamation: The only file that you are required to submit to Gradescope is your copy of
 `si506_20f_waiver.py`. Please submit no other files.
 
-### 4.5 Pass/Fail notification
+### 4.4 Pass/Fail criteria
 
-After the close of the waiver exam, the UMSI Registrar Team will notify students officially about
-their waiver outcome status.
+You must pass ALL waiver exam assignment autograder tests (1000/1000 points) in order to
+successfully waive SI 506. After the close of the waiver exam, the UMSI Registrar Team will notify
+you officially about your waiver outcome status.
 
-## 4.6 Testing your code
+### 4.5 Testing your code
 
 Make frequent use of the built-in `print()` function to check values (you can comment out these
 lines before submitting your work). You should also use the Gradescope autograder to test your code.
 Recall, that there is no limit to the number of times that you can submit your work to Gradescope
 for evaluation prior to the close of the exam period.
 
-### 4.7 Autograder test failures
+### 4.6 Autograder test failures
 
 You are likely to fail tests, sometimes repeatedly, after submitting your work to Gradescoope for
 scoring. Don't let test failures discourage you. As you finish working on the various sections of
@@ -265,33 +282,33 @@ The Gradescope Autograder Results page will list both passing and failing tests 
 Failed tests will be accompanied by a short error description, examples of which are illustrated
 below:
 
-#### 4.7.1 File read error
+#### 4.6.1 File read error
 
 ![read_json() file reading error](./assets/si506_waiver_read_json_error.png)
 
-#### 4.7.2 Counting error
+#### 4.6.2 Counting error
 
 ![counting error](./assets/si506_waiver_count_error.png)
 
-#### 4.7.3 List element mismatches
+#### 4.6.3 List element mismatches
 
 Interpret as student list (left side) does not equal (!=) the test list (right side). In this
 example neither list length nor the individual list elements pass the equality test.
 
 ![list element mismatch error](./assets/si506_waiver_list_element_error.png)
 
-#### 4.7.4 Missing method parameter
+#### 4.6.4 Missing method parameter
 
 ![missing __init__() method error](./assets/si506_waiver_parameter_error.png)
 
-#### 4.7.5 Dictionary value mismatch
+#### 4.6.5 Dictionary value mismatch
 
 Interpret as student dictionary (left side) does not equal (!=) the test dictionary (right side). In
 this example the `tags` value `['Go Blue!]` != `[hockey]`.
 
 ![dictionaray value mismatch error](./assets/si506_waiver_dict_value_error.png)
 
-#### 4.7.6 write_json() / json.dump() serialization error
+#### 4.6.6 write_json() / json.dump() serialization error
 
 This TypeError occurs whenever you attempt to encode a custom type by passing it to
 `json.dump()` for encoding as JSON prior to writing the serialized object to a file. In this
