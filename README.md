@@ -25,9 +25,8 @@ take a more advanced course or choose another course of interest.__
 ### 1.1 Sign up
 
 To be considered for the SI 506 waiver, you must first complete the Google sign up
-[form](https://docs.google.com/forms/d/e/1FAIpQLSf6j0jYmvPHoBc0fe86F05KS_Uk0cvR) in order
-to be granted access to the assignment. If you do not complete this form, you will not be considered
-for the waiver.
+[form](https://docs.google.com/forms/d/e/1FAIpQLSf6j0jYmvPHoBc0fe86F05KS_Uk0cvR4RJPtgsLSV2cvjUjKA/viewform) in order to be granted access to the assignment. If you do not complete this form, you
+will not be considered for the waiver.
 
 ### 1.2 Deadline
 
