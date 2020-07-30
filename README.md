@@ -26,12 +26,12 @@ take a more advanced course or choose another course of interest.__
 
 To be considered for the SI 506 waiver, you must first complete the Google sign up
 [form](https://docs.google.com/forms/d/e/1FAIpQLSf6j0jYmvPHoBc0fe86F05KS_Uk0cvR4RJPtgsLSV2cvjUjKA/viewform) in order to be granted access to the assignment. If you do not complete this form, you
-will not be considered for the waiver.
+will not be considered for the waiver. Sign up opens on Monday, 3 August 2020, 9:00 AM EDT.
 
 ### 1.2 Deadline
 
 :warning: The SI 506 Programming I waiver assignment submission is due no later than Monday,
-June 22, 2020, 9:00 am EDT. Submissions must be made to
+10 August 2020, 9:00 am EDT. Submissions must be made to
 [Gradescope](https://www.gradescope.com/courses/137284) and pre-approval as described above is
 required before access to the site is provided.
 
